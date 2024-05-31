@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/main.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <nav class="navbar">
+                <div class="navbar__logo">
+                    <img src="./assets/img/navbar__logo.png" alt="">
+                    <select class="travel" name="travel" id="travel">
+                        <option value="travel">travel</option>
+                        <option value="travel">journey</option>
+                    </select>
+                </div>
+                <div class="navbar__items">
+                    <div class="navbar__title">
+                        <p class="navbar__text">Support</p>
+                        <i class="fa-solid fa-globe"></i>
+                        <p class="navbar__text">Language</p>
+                    </div>
+                    <div class="navbar__icons">
+                        <button class="navbar__btn">List your property</button>
+                        <i class="fa-regular fa-bell"></i>
+                        <img src="./assets/img/navbar__girl.png" alt="">
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <main class="main container__lg">
+        <section class="hero">
+            <div class="container">
+                <div class="hero__body">
+                    <h2 class="hero_heading">Car rentals </h2>
+                    <p class="hero__text">Find and book a great experience.</p>
+                    <button class="hero__btn">Start your search</button>
+                </div>
+            </div>
+        </section>
+        <section class="car__search">
+            <div class="container">
+                <div class="car-search__body">
+                    <div class="car-search__text">
+                        <div class="car-search__title">
+                            <ul class="car-search__collection">
+                                <li class="car-search__item">Stays</li>
+                                <li class="car-search__item">Flights</li>
+                                <li class="car-search__item">Cars</li>
+                                <li class="car-search__item">Things to do</li>
+                            </ul>
+                        </div>
+                        <div class="car-search__horizontal">
+                            <hr class="hr">
+                        </div>
+                        <div class="car-search__btns">
+                            <button class="same__btn">Return to same location</button>
+                            <button class="same__btn">Return to same different location</button>
+                        </div>
+                    </div>
+                    <div class="car-search__location">
+                        <div class="collection">
+                            <div class="car-search__icons iconka">
+                                <div class="icon"><i class="fa-solid fa-location-arrow"></i></div>
+                                <p class="car-search__paragraph">Pickup location</p>
+                            </div>
+                            <div class="text">
+                                <span class="location__times times">Where are you?</span>
+                            </div>
+                        </div>
+                        <div class="collection">
+                            <div class="car-search__icons">
+                                <div class="icon"><i class="fa-regular fa-calendar-days"></i></div>
+                                <p class="car-search__paragraph">Tue, May 11</p>
+                            </div>
+                            <div class="text">
+                                <span class="location__times">10:00 AM</span>
+                            </div>
+                        </div>
+                        <div class="collection">
+                            <div class="car-search__icons">
+                                <div class="icon"><i class="fa-regular fa-calendar-days"></i></div>
+                                <p class="car-search__paragraph">Fri, May 11</p>
+                            </div>
+                            <div class="text">
+                                <span class="location__times">10:00 AM</span>
+                            </div>
+                        </div>
+                        <div class="search__icon">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="destination">
+            <div class="container">
+                <div class="destination__body">
+                    <div class="destination__title">
+                        <div class="heading">
+                            <h2 class="destination__heading">Popular destinations</h2>       
+                            <img src="./assets/img/arrows.png" alt="">
+                            <!-- <i class="fa-solid fa-arrow-left-long" style="color: rgba(119, 126, 144, 1) ; margin-right: 16px;"></i> -->
+                            <!-- arrow-right-long" style="color: rgba(119, 126, 144, 1)"></i> -->
+                        </div>
+                     <p class="destination__text">for car rentals</p>
+                    </div>
+                    <div class="destination__collection">
+                        <div class="destination__item">
+                            <img class="city__img" src="./assets/img/paris.png" alt="">
+                            <p class="city__name">Paris</p>
+                            <p class="city__rental">Car rentals in 86 pickup locations</p>
+                        </div>
+                        <div class="destination__item">
+                            <img class="city__img" src="./assets/img/london.png" alt="">
+                            <p class="city__name">London</p>
+                            <p class="city__rental">Car rentals in 86 pickup locations</p>
+                        </div>
+                        <div class="destination__item">
+                            <img class="city__img" src="./assets/img/ams.png" alt="">
+                            <p class="city__name">Ams</p>
+                            <p class="city__rental">Car rentals in 86 pickup locations</p>
+                        </div>
+                        <div class="destination__item">
+                            <img class="city__img" src="./assets/img/ams.png" alt="">
+                            <p class="city__name">Ams</p>
+                            <p class="city__rental">Car rentals in 86 pickup locations</p>
+                        </div>
+                    </div>
+                    <div class="destination__buttons">
+                        <button class="destination__btn">Show more  ></button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="rentcar">
+            <div class="container">
+                <div class="rentcar__body">
+                    <div class="rentcar__title">
+                        <p class="rentcar__text">supercharge your planning powers</p>
+                        <h2 class="rentcar__heading">Rent a car in minutes with Fleet</h2>
+                        <p class="rentcar__paragraph">Stacks is a production-ready library of stackable content blocks built in React Native.</p>
+                        <button class="rentcar__btn ">Enter your phone number
+                            <div class="rentcar__icon"><i class="fa-solid fa-arrow-right-long"></i></div></button>
+                    </div> 
+                    <div class="rentcar__img">
+                        <img class="rent__img" src="./assets/img/rentcar.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="explore">
+            <div class="container">
+                <div class="explore__body">
+                    <div class="explore__title">
+                        <div class="explore__header">
+                            <h2 class="explore__heading">Explore nearby</h2>
+                            <i class="fa-solid fa-arrow-left-long" style="color: rgba(119, 126, 144, 1) ; margin-right: 16px;"></i>
+                            <i class="fa-solid fa-arrow-right-long" style="color: rgba(119, 126, 144, 1)"></i>
+                        </div>
+                        <p class="explore__paragraph">for car rentals</p>
+                    </div>
+                    <div class="explore__collection">
+                        <div class="explore__item first">
+                            <img class="explore__img" src="./assets/img/paris.png" alt="">
+                            <p class="city__name">Parsi</p>
+                            <p class="city__rental">Car rentals in 86 pickup locations</p>
+                        </div>
+                        <div class="explore__item">
+                            <img class="explore__img" src="./assets/img/london.png" alt="">
+                            <p class="city__name">London</p>
+                            <p class="city__rental">Car rentals in 86 pickup locations</p>
+                        </div>
+                        <div class="explore__item">
+                            <img class="explore__img" src="./assets/img/ams.png" alt="">
+                            <p class="city__name">Ams</p>
+                            <p class="city__rental">Car rentals in 86 pickup locations</p>
+                        </div>
+                        <div class="explore__item first">
+                            <img class="explore__img" src="./assets/img/london.png" alt="">
+                            <p class="city__name">Milan</p>
+                            <p class="city__rental">Car rentals in 86 pickup locations</p>
+                        </div>
+                        <div class="explore__item">
+                            <img class="explore__img" src="./assets/img/paris.png" alt="">
+                            <p class="city__name">Paris</p>
+                            <p class="city__rental">Car rentals in 86 pickup locations</p>
+                        </div>
+                        <div class="explore__item">
+                            <img class="explore__img" src="./assets/img/london.png" alt="">
+                            <p class="city__name">London</p>
+                            <p class="city__rental">Car rentals in 86 pickup locations</p>
+                        </div>
+                        <div class="explore__item first ">
+                            <img class="explore__img" src="./assets/img/ams.png" alt="">
+                            <p class="city__name">Ams</p>
+                            <p class="city__rental">Car rentals in 86 pickup locations</p>
+                        </div>
+                        <div class="explore__item">
+                            <img class="explore__img" src="./assets/img/paris.png" alt="">
+                            <p class="city__name">Milan</p>
+                            <p class="city__rental">Car rentals in 86 pickup locations</p>
+                        </div>
+                        <div class="explore__item">
+                            <img class="explore__img" src="./assets/img/london.png" alt="">
+                            <p class="city__name">London</p>
+                            <p class="city__rental">Car rentals in 86 pickup locations</p>
+                        </div>
+                    </div>
+                    <div class="destination__buttons">
+                        <button class="destination__btn" style="margin-top: 48px;">Show more  ></button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="services">
+            <div class="container">
+                <div class="services__body">
+                    <div class="services__title">
+                            <p class="services__text">A creative agency that lead and inspire</p>
+                            <h2 class="services__heading">Amazing Services</h2>
+                            <button class="services__btn">Contact Us</button>
+                    </div>
+                    <div class="services__collection">
+                        <div class="services__item">
+                            <img class="services__icons" src="./assets/img/smile.png" alt="">
+                            <b class="services__review">1+M reviewers</b>
+                            <p class="item__text">We realize ideas from simple to complex, everything becomes easy to use and reach the most potential customers.</p>
+                        </div>
+                        <div class="services__item">
+                            <img class="services__icons" src="./assets/img/lighting.png" alt="">
+                            <b class="services__review">24/7 customer service</b>
+                            <p class="item__text">We realize ideas from simple to complex, everything becomes easy to use and reach the most potential customers.</p>
+                        </div>
+                        <div class="services__item">
+                            <img class="services__icons" src="./assets/img/gift.png" alt="">
+                            <b class="services__review">Free cancellation</b>
+                            <p class="item__text">We realize ideas from simple to complex, everything becomes easy to use and reach the most potential customers.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="icons">
+            <div class="container">
+                <div class="icons__body">
+                    <div class="icons__card"><img src="./assets/img/rotashov.png" alt=""></div>
+                    <div class="icons__card"><img src="./assets/img/waves.png" alt=""></div>
+                    <div class="icons__card activ"><img src="./assets/img/velocity.png" alt=""></div>
+                    <div class="icons__card none"><img src="./assets/img/travelers.png" alt=""></div>
+                    <div class="icons__card none"><img src="./assets/img/goldlines.png" alt=""></div>
+                    <div class="icons__card activ none"><img src="./assets/img/rotashov.png" alt=""></div>
+                </div>
+            </div>
+        </section>
+        <section class="questions">
+            <div class="questions__body">
+                <div class="questions__title">
+                    <h2 class="questions__heading">Frequently asked questions</h2>
+                    <ul class="questions__wrapper">
+                        <li class="questions__menus">General</li>
+                        <li class="questions__menus">Support</li>
+                        <li class="questions__menus">Hosting</li>
+                        <li class="questions__menus">Product</li>
+                    </ul>
+                </div>
+                <div class="questions__collection">
+                    <div class="questions__item">
+                        <span class="questions__number">01</span>
+                        <p class="questions__type">How does it work?</p>
+                        <i class="fa-solid fa-angle-down"></i>
+                    </div>
+                    <div class="questions__item">
+                        <span class="questions__number">02</span>
+                        <p class="questions__type">How can i set up a new website?</p>
+                        <i class="fa-solid fa-angle-down"></i>
+                    </div>
+                    <div class="questions__item">
+                        <span class="questions__number">03</span>
+                        <p class="questions__type">How does it work?</p>
+                        <i class="fa-solid fa-angle-down"></i>
+                    </div>
+                    <div class="questions__item">
+                        <span class="questions__number">04</span>
+                        <p class="questions__type">How does it work?</p>
+                        <i class="fa-solid fa-angle-down"></i>
+                    </div>
+                    <div class="questions__item">
+                        <span class="questions__number">05</span>
+                        <p class="questions__type">How does it work?</p>
+                        <i class="fa-solid fa-angle-down"></i>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="recommended">
+            <div class="container">
+                <div class="recommended__body">
+                    <div class="recommended__title">
+                        <h2 class="recommended__heading">Recommended pickup locations</h2>
+                        <p class="recommended__text">A lot of amazing experiences 🏝</p>
+                    </div>
+                    <div class="recommended__collection">
+                        <div class="recommended__item"> 
+                            <p class="recommended__number">128</p>
+                            <i class="fa-solid fa-car"></i>
+                            <b class="recommended__city">South Virgilland</b>
+                            <p class="per__day">From Rs. 1,461 per day</p>
+                        </div>
+                        <div class="recommended__item"> 
+                            <p class="recommended__number">256</p>
+                            <i class="fa-solid fa-car"></i>
+                            <b class="recommended__city">Purdyhaven</b>
+                            <p class="per__day">From Rs. 1,461 per day</p>
+                        </div>
+                        <div class="recommended__item"> 
+                            <p class="recommended__number">128</p>
+                            <i class="fa-solid fa-car"></i>
+                            <b class="recommended__city">Port Jarrett</b>
+                            <p class="per__day">From Rs. 1,461 per day</p>
+                        </div>
+                        <div class="recommended__item"> 
+                            <p class="recommended__number">256</p>
+                            <i class="fa-solid fa-car"></i>
+                            <b class="recommended__city">New Kristian</b>
+                            <p class="per__day">From Rs. 1,461 per day</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <hr>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__body">
+                <div class="footer__title">
+                    <div class="footer__logo">
+                        <img src="./assets/img/navbar__logo.png" alt="">
+                    </div>
+                    <div class="footer__menus">
+                        <div class="footer__text">
+                            <p class="footer__paragraph">About</p>
+                            <p class="footer__paragraph second">Projects</p>
+                        </div>
+                        <div class="footer__text">
+                            <p class="footer__paragraph">What We Do</p>
+                            <p class="footer__paragraph second">Press</p>
+                        </div>
+                        <div class="footer__text">
+                            <p class="footer__paragraph">Jobs</p>
+                            <p class="footer__paragraph second">Download</p>
+                        </div>
+                    </div>
+                    <div class="footer__buttons">
+                        <p class="btn__text">Join our community 🔥</p>
+                        <button class="rentcar__btn ">Enter your email
+                            <div class="rentcar__icon"><i class="fa-solid fa-arrow-right-long"></i></div></button>
+                    </div>
+                </div>
+                <div class="footer__copyright">
+                    <hr class="horiz">
+                    <p>Copyright © 2021 UI8 LLC. All rights reserved</p>
+                </div>
+            </div>
+        </div>
+    </footer> 
+</body>
+</html>
